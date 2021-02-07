@@ -1,0 +1,33 @@
+li {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+img {
+  width: 45%;
+  height: 45%;
+  float: right;
+  border-radius: 50%;
+}
+
+#timer {
+  font-size: 70px;
+  padding-left: 90px;
+}
+
+.countdown {
+  float: right;
+  padding-right: 75px;
+}
+.container {
+  position: absolute;
+  width: 50%;
+}
+
+h3 {
+  padding-right: 90px;
+}
+
+.lead {
+  margin-top: 20px;
+}
