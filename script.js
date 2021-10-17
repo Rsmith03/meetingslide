@@ -6,13 +6,13 @@ function countdown(minutes, seconds) {
       minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
     seconds--;
     if (seconds >= 0) {
-      timeoutHandle = setTimeout(tick, 100);
+      timeoutHandle = setTimeout(tick, 1000);
     } else {
       if (minutes >= 1) {
         // countdown(mins-1);   never reach “00″ issue solved:Contributed by Victor Streithorst
         setTimeout(function () {
           countdown(minutes - 1, 59);
-        }, 100);
+        }, 1000);
       }
     }
   }
