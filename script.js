@@ -12,7 +12,7 @@ function countdown(minutes, seconds) {
         // countdown(mins-1);   never reach “00″ issue solved:Contributed by Victor Streithorst
         setTimeout(function () {
           countdown(minutes - 1, 59);
-        }, 1000);
+        }, 100);
       }
     }
   }
