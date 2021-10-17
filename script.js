@@ -11,7 +11,7 @@ function countdown(minutes, seconds) {
       if (minutes >= 1) {
         // countdown(mins-1);   never reach “00″ issue solved:Contributed by Victor Streithorst
         setTimeout(function () {
-          countdown(minutes - 1, 00);
+          countdown(minutes - 1, 59);
         }, 1000);
       }
     }
@@ -19,4 +19,4 @@ function countdown(minutes, seconds) {
   tick();
 }
 
-countdown(2, 00);
+countdown(1, 00);
