@@ -19,4 +19,4 @@ function countdown(minutes, seconds) {
   tick();
 }
 
-countdown(2, 00);
+countdown(1, 00);
