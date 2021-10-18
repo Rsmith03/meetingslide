@@ -1,3 +1,8 @@
+function refreshPage(){
+  window.location.reload();
+} 
+
+
 var timeoutHandle;
 function countdown(minutes, seconds) {
   function tick() {
